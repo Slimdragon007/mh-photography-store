@@ -47,7 +47,7 @@ export default async function Home() {
             Gallery
           </h2>
           <p className="text-slate-600 max-w-2xl mx-auto leading-relaxed">
-            Capturing the raw beauty of nature's most breathtaking moments through the lens of adventure and artistry.
+            Capturing the raw beauty of nature&apos;s most breathtaking moments through the lens of adventure and artistry.
           </p>
         </div>
 

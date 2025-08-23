@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
-import { getCart, clearCart, formatPrice, Cart } from '@/lib/cart';
+import { getCart, formatPrice, Cart } from '@/lib/cart';
 import CartIcon from '@/components/CartIcon';
 
 export default function CheckoutPage() {

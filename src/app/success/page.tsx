@@ -1,11 +1,11 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, Suspense } from 'react';
 import Link from 'next/link';
 import { useSearchParams } from 'next/navigation';
 import { clearCart } from '@/lib/cart';
 
-export default function SuccessPage() {
+function SuccessContent() {
   const [sessionId, setSessionId] = useState<string | null>(null);
   const searchParams = useSearchParams();
 
@@ -84,5 +84,13 @@ export default function SuccessPage() {
         </div>
       </div>
     </div>
+  );
+}
+
+export default function SuccessPage() {
+  return (
+    <Suspense fallback={<div className="min-h-screen bg-gradient-to-br from-slate-50 via-white to-slate-100 flex items-center justify-center"><div className="animate-spin rounded-full h-12 w-12 border-b-2 border-slate-900"></div></div>}>
+      <SuccessContent />
+    </Suspense>
   );
 }

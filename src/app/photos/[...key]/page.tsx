@@ -80,7 +80,7 @@ export default async function PhotoPage({ params }: { params: Promise<{ key: str
                 <div>
                   <h3 className="font-medium text-slate-800 mb-3">About This Print</h3>
                   <p className="text-slate-600 leading-relaxed">
-                    This stunning landscape photograph captures the raw beauty and dramatic essence of nature's most breathtaking moments. 
+                    This stunning landscape photograph captures the raw beauty and dramatic essence of nature&apos;s most breathtaking moments. 
                     Each print is carefully produced on premium archival paper to ensure lasting quality and vibrant colors.
                   </p>
                 </div>
@@ -93,7 +93,7 @@ export default async function PhotoPage({ params }: { params: Promise<{ key: str
                     </div>
                     <div className="flex justify-between">
                       <span>Available Sizes:</span>
-                      <span>12"×16", 16"×20", 24"×32"</span>
+                      <span>12&quot;×16&quot;, 16&quot;×20&quot;, 24&quot;×32&quot;</span>
                     </div>
                     <div className="flex justify-between">
                       <span>Edition:</span>

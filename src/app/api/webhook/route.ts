@@ -56,7 +56,6 @@ export async function POST(request: NextRequest) {
           sessionId: session.id,
           customerEmail: session.customer_details?.email,
           customerName: session.customer_details?.name,
-          shippingAddress: session.shipping_details?.address,
           amountTotal: session.amount_total,
           paymentStatus: session.payment_status,
           orderDate: new Date().toISOString(),
