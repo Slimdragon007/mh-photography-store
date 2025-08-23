@@ -1,0 +1,42 @@
+{
+  "name": "mh-store",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "sync:r2": "tsx scripts/sync_r2.ts",
+    "seed:demo": "tsx scripts/seed_demo.ts",
+    "import:etsy": "tsx scripts/import_etsy.ts"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.873.0",
+    "@aws-sdk/s3-request-presigner": "^3.873.0",
+    "@stripe/stripe-js": "^7.8.0",
+    "csv-parse": "^6.1.0",
+    "dotenv": "^17.2.1",
+    "mime-types": "^3.0.1",
+    "next": "15.5.0",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "slugify": "^1.6.6",
+    "stripe": "^18.4.0"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4",
+    "@types/mime-types": "^3.0.1",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "autoprefixer": "^10.4.21",
+    "eslint": "^9",
+    "eslint-config-next": "15.5.0",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4",
+    "tsx": "^4.20.4",
+    "typescript": "^5"
+  }
+}
