@@ -26,7 +26,9 @@
       "WebFetch(domain:localhost)",
       "Bash(git push:*)",
       "Read(//Users/michaelhaslim/Library/**)",
-      "Bash(vercel:*)"
+      "Bash(vercel:*)",
+      "Bash(gh repo list:*)",
+      "WebFetch(domain:github.com)"
     ],
     "deny": [],
     "ask": [],
