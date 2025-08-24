@@ -1,0 +1,36 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir:*)",
+      "Bash(npx create-next-app:*)",
+      "Bash(npm i:*)",
+      "Bash(test ! -f src/app/.env.local)",
+      "Bash(grep:*)",
+      "Bash(test:*)",
+      "Bash(git check-ignore:*)",
+      "Bash(npm run:*)",
+      "Bash(npx tsc:*)",
+      "Bash(if [ -f src/app/.env.local ])",
+      "Bash(then mv src/app/.env.local .env.local.backup)",
+      "Bash(fi)",
+      "Bash(echo:*)",
+      "Bash(if [ ! -f .env.local ])",
+      "Bash(then echo \"ERROR: .env.local missing in project root. Create it and re-run.\")",
+      "Bash(exit 1)",
+      "Bash(node:*)",
+      "Bash(git init:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(gh repo create:*)",
+      "Bash(curl:*)",
+      "WebFetch(domain:localhost)",
+      "Bash(git push:*)",
+      "Read(//Users/michaelhaslim/Library/**)"
+    ],
+    "deny": [],
+    "ask": [],
+    "additionalDirectories": [
+      "/Users/michaelhaslim/Library/Mobile Documents/com~apple~CloudDocs"
+    ]
+  }
+}
