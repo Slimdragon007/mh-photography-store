@@ -28,7 +28,12 @@
       "Read(//Users/michaelhaslim/Library/**)",
       "Bash(vercel:*)",
       "Bash(gh repo list:*)",
-      "WebFetch(domain:github.com)"
+      "WebFetch(domain:github.com)",
+      "Bash(chmod:*)",
+      "Bash(tsx scripts/test-integrations.ts:*)",
+      "Bash(npx tsx:*)",
+      "Bash(brew install:*)",
+      "Bash(gh auth:*)"
     ],
     "deny": [],
     "ask": [],
