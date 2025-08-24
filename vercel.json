@@ -1,7 +1,13 @@
 {
-  "buildCommand": "npm install --legacy-peer-deps && npm run build",
   "framework": "nextjs",
+  "buildCommand": "npm install --force && npm run build",
+  "installCommand": "npm install --force",
   "nodejs": {
     "maxLambdaSize": "50mb"
+  },
+  "functions": {
+    "src/app/**": {
+      "maxDuration": 30
+    }
   }
 }
