@@ -1,7 +1,5 @@
 {
   "framework": "nextjs",
-  "buildCommand": "npm install --force && npm run build",
-  "installCommand": "npm install --force",
   "functions": {
     "src/app/**": {
       "maxDuration": 30
